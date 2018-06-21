@@ -8,6 +8,7 @@ $("#submit").on("click", function () {
         url: queryUrl,
         method: "GET"
     }).then(function (response) {
-        console.log(JSON.stringify(response))
-    });
-});
+        console.log(response.response.docs.snippet)
+        debugger
+    })
+})
