@@ -15,5 +15,3 @@ $("#submit").on("click", function () {
         console.log(numResults);
     })
 })
-
-
